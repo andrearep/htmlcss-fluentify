@@ -200,3 +200,39 @@ h1{
     text-decoration: underline;
     font-size: 0.9rem;
 }
+
+/* ----------------
+      FOOTER
+ ------------------*/
+
+ footer{
+     background-color:#d3d3d3 ;
+    height: 150px;
+ }
+ footer > .container{
+     padding-top: 50px;
+ }
+
+ footer h2{
+     color: black;
+    float: left;
+    font-size: 2rem;
+}
+
+ .buttons, .selezione{
+    float: right;
+ }
+
+ .buttons{
+    width:200px;
+ }
+ .buttons > .greenbtn{
+     color: white;
+    margin: 2px;
+ }
+ .piano{
+    padding: 20px 5px;
+ }
+ .help{
+    padding: 10px 5px;
+ }
