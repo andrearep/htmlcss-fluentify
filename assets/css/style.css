@@ -32,16 +32,19 @@ a{
 header{
     height:550px;
     background-color: #0c325a;
+    background-image: url("../img/background-header.png");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: 115% 110%;
 }
 /* NAVBAR */
 nav{
     height: 60px;
-    
     line-height: 60px;
 }
 .logo{
-    float:left;
-    margin-top: 24px;
+   float: left;
+   padding-top: 24px;
 }
 /* menubar */
 .menubar{
@@ -76,5 +79,22 @@ nav{
     font-size: 0.7rem;
     padding:8px 10px;
     border-radius: 5px;
+    border:none;
     background-color:  #7cbb02;
+}
+
+/* mainclaim */
+.main_claim{
+    position:relative;
+    top:20%;
+    
+}
+h1{
+    width: 50%;
+   margin:40px 0;
+    font-size: 3.2rem;
+}
+.main_claim > .greenbtn{
+    padding: 22px;
+    font-size: 0.8rem;
 }
