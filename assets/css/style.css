@@ -25,6 +25,9 @@ a{
     width:80%;
     margin:auto;
 }
+p{
+    color: #808080;
+}
 /* ----------------
       HEADER
  ------------------*/
@@ -97,4 +100,38 @@ h1{
 .main_claim > .greenbtn{
     padding: 22px;
     font-size: 0.8rem;
+}
+
+/* ----------------
+      MAIN
+ ------------------*/
+
+ /* main title */
+
+ .main_title{
+     height: 150px;
+     background-color: #d3d3d3 ;
+     text-align: center;
+     position: relative;
+
+    
+ }
+ .center{
+     width: 100%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+h2{
+    color: black;
+    font-size: 1.6rem;
+    margin-bottom:20px ;
+    line-height: 50%;
+}
+ h5{
+    color: #808080;
+    font-size: 1.1rem;
+   
 }
